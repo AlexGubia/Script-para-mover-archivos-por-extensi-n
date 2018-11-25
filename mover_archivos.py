@@ -8,6 +8,12 @@
     Python Version: 3.6.5
 '''
 
+'''
+El tipo de archivo a mover tiene el mismo índice que la carpeta donde van a moverse,
+y por lo tanto, con las opciones dadas en la parte de #Interacción con el usuario.
+Esto debe tenerse en cuenta a la hora de modificar cualquier parámetro.
+'''
+
 import shutil
 import os
 
@@ -23,8 +29,8 @@ entrada = input()
 num_archivos = 0
 
 #Directorios de origen y de destino de los archivos
-origen = 'C:\\Users\\alexg\\Desktop'  #'D:\\Descargas'
-destinos = {'0' : 'D:\\IMPRESION 3D', '1' : 'D:\\IMPRESION 3D', '2' : 'D:\\PDFs', '3' : 'D:\\WORDs', '4' : 'D:\\WORDs'}
+origen = 'C:\\Users\\user\\Downloads'  
+destinos = {'0' : 'D:\\ZIPs', '1' : 'D:\\STLs', '2' : 'D:\\PDFs', '3' : 'D:\\WORDs', '4' : 'D:\\WORDs'}
 
 #Primero nos movemos al directorio donde están los archivos a mover
 os.chdir(origen)
