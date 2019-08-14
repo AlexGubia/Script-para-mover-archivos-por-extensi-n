@@ -4,8 +4,8 @@
     File name: mover_archivos.py
     Author: Alex Inza 
     Date created: 26/9/2018
-    Date last modified: 25/11/2018
-    Python Version: 3.6.5
+    Date last modified: 14/08/2019
+    Python Version: 3.7.2
 '''
 
 '''
