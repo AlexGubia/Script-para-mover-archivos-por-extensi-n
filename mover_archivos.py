@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 '''
     File name: mover_archivos.py
@@ -18,11 +18,14 @@ import shutil
 import os
 
 #Interacción con el usuario
-print('0  -  Mover archivos .zip')
-print('1  -  Mover archivos .stl')
-print('2  -  Mover archivos .pdf')
-print('3  -  Mover archivos .docx')
-print('4  -  Mover archivos .odt')
+print('''
+	0  -  Mover archivos .zip'
+	1  -  Mover archivos .stl'
+	2  -  Mover archivos .pdf'
+	3  -  Mover archivos .docx'
+	4  -  Mover archivos .odt'
+	''')
+
 entrada = input()
 
 #Definimos una variable para el número de archivos movidos
